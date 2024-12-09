@@ -14894,7 +14894,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 className: s()("w-[101px] h-auto hidden md:block", t, n),
                 viewBox: "0 0 101 40",
                 fill: "none",
-                src: "/graphics/captain.png",
+                src: "/graphics/ptCaptain.svg",
               }),
 
             ],
