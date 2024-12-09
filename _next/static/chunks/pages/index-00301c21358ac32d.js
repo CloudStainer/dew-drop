@@ -58,10 +58,10 @@
             []
           );
           let B = [
-              { href: "/help", name: f("help") },
-              { href: "/ecosystem", name: f("ecosystem") },
-              { href: "/community", name: f("community") },
-              { href: "/builders", name: f("builders") },
+              { href: "https://drop-together-help.vercel.app/", name: f("help") },
+              { href: "https://drop-together-ecosystem.vercel.app/", name: f("ecosystem") },
+              { href: "https://drop-together-community.vercel.app/", name: f("community") },
+              { href: "https://drop-together-builder.vercel.app/", name: f("builders") },
             ],
             P = [
               {
@@ -168,10 +168,10 @@
               },
             ],
             D = {
-              "/help": f("help"),
-              "/ecosystem": f("ecosystem"),
-              "/community": f("community"),
-              "/builders": f("builders"),
+              "https://drop-together-help.vercel.app/": f("help"),
+              "https://drop-together-ecosystem.vercel.app/": f("ecosystem"),
+              "https://drop-together-community.vercel.app/": f("community"),
+              "https://drop-together-builder.vercel.app/": f("builders"),
               "/terms": N("termsOfService"),
               "/protocol-disclaimer": N("protocolDisclaimer"),
             },
