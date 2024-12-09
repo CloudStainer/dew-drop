@@ -94,7 +94,7 @@
                 ),
               },
               cabanaFactory: {
-                href: "https://factory.cabana.fi/",
+                href: "https://drop-together-app.vercel.app/",
                 iconSrc: "/icons/cabanaIcon.svg",
                 title: o("cabanaFactoryCardTitle"),
                 author: "G9 Software Inc.",

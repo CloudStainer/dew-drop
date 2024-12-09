@@ -15154,7 +15154,7 @@ PERFORMANCE OF THIS SOFTWARE.
           landingPage_v4: "https://DropTogether.com",
           docs: "https://docs.DropTogether.com",
           docs_v4: "https://docs.DropTogether.com",
-          devDocs: "https://dev.DropTogether.com",
+          devDocs: "https://drop-together-dev.vercel.app/",
           governance: "https://gov.DropTogether.com",
           poolExplorer: "https://poolexplorer.win",
           tools: "https://tools.DropTogether.com",

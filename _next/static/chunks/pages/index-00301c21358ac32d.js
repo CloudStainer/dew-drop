@@ -559,7 +559,7 @@
               addVault: {
                 src: "/graphics/AddVaultGraphic.svg",
                 buttonProps: {
-                  href: "https://factory.cabana.fi/",
+                  href: "https://drop-together-app.vercel.app/",
                   target: "_blank",
                   children: a("addYourVault"),
                 },
