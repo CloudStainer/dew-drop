@@ -191,7 +191,7 @@
                   activePage: d.pathname,
                   linksAs: g(),
                   append: (0, a.jsx)(g(), {
-                    href: "/interfaces",
+                    href: "https://drop-together-use.vercel.app/",
                     passHref: !0,
                     children: (0, a.jsx)(o.zx, {
                       children: (0, a.jsx)("span", {
