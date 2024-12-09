@@ -15148,17 +15148,17 @@ PERFORMANCE OF THIS SOFTWARE.
             }),
           }),
         l2 = Object.freeze({
-          app: "https://app.pooltogether.com",
-          landingPage: "https://pooltogether.com",
-          app_v4: "https://app.pooltogether.com",
-          landingPage_v4: "https://pooltogether.com",
-          docs: "https://docs.pooltogether.com",
-          docs_v4: "https://docs.pooltogether.com",
-          devDocs: "https://dev.pooltogether.com",
-          governance: "https://gov.pooltogether.com",
+          app: "https://app.DropTogether.com",
+          landingPage: "https://DropTogether.com",
+          app_v4: "https://app.DropTogether.com",
+          landingPage_v4: "https://DropTogether.com",
+          docs: "https://docs.DropTogether.com",
+          docs_v4: "https://docs.DropTogether.com",
+          devDocs: "https://dev.DropTogether.com",
+          governance: "https://gov.DropTogether.com",
           poolExplorer: "https://poolexplorer.win",
-          tools: "https://tools.pooltogether.com",
-          notion: "https://pooltogetherdao.notion.site",
+          tools: "https://tools.DropTogether.com",
+          notion: "https://DropTogetherdao.notion.site",
         }),
         l3 = Object.freeze({
           ...l2,
@@ -15166,13 +15166,13 @@ PERFORMANCE OF THIS SOFTWARE.
           protocolDisclaimer: "".concat(l2.app, "/protocol-disclaimer"),
           ecosystem: "".concat(l2.landingPage, "/ecosystem"),
           brandKit: "https://www.figma.com/community/file/1309277420331106706",
-          pooltogetherUiKit:
+          DropTogetherUiKit:
             "https://www.figma.com/community/file/1312204004590586926",
-          pooltogetherTokenBrandingGuidelines:
+          DropTogetherTokenBrandingGuidelines:
             "https://www.figma.com/community/file/1296919804512902494",
           gettingStarted: "".concat(l2.docs, "/welcome/getting-started"),
           faq: "".concat(l2.docs, "/welcome/faq"),
-          guides: "".concat(l2.docs, "/pooltogether/guides"),
+          guides: "".concat(l2.docs, "/DropTogether/guides"),
           audits: "".concat(l2.docs, "/security/audits"),
           devDocs_v4: "".concat(l2.devDocs, "/protocol/V4/introduction"),
           depositDelegator: "".concat(l2.tools, "/delegate"),
@@ -15181,22 +15181,22 @@ PERFORMANCE OF THIS SOFTWARE.
             l2.notion,
             "/Community-Calendar-4ce3024241dd464db96215e6729a78e0"
           ),
-          twitter: "https://twitter.com/PoolTogether_",
-          github: "https://github.com/pooltogether",
-          medium: "https://medium.com/pooltogether",
-          tally: "https://www.tally.xyz/gov/pooltogether",
-          treasury: "https://info.pooltogether.com/treasury",
-          dune_v4: "https://dune.com/sarfang/PoolTogetherV4",
+          twitter: "https://twitter.com/DropTogether_",
+          github: "https://github.com/DropTogether",
+          medium: "https://medium.com/DropTogether",
+          tally: "https://www.tally.xyz/gov/DropTogether",
+          treasury: "https://info.DropTogether.com/treasury",
+          dune_v4: "https://dune.com/sarfang/DropTogetherV4",
           prizeCalc: "https://prizecalc.com",
           grants: "https://poolgrants.org",
-          lens: "https://lenster.xyz/u/pooltogether",
-          warpcast: "https://warpcast.com/pooltogether",
+          lens: "https://lenster.xyz/u/DropTogether",
+          warpcast: "https://warpcast.com/DropTogether",
           farcaster: "https://warpcast.com/~/channel/pool-together",
-          mirror: "https://pooltogether.mirror.xyz/",
+          mirror: "https://DropTogether.mirror.xyz/",
           clientJs:
             "https://www.npmjs.com/package/@generationsoftware/hyperstructure-client-js",
           clientJs_v4:
-            "https://www.npmjs.com/package/@pooltogether/v4-client-js",
+            "https://www.npmjs.com/package/@DropTogether/v4-client-js",
           reactHooks:
             "https://www.npmjs.com/package/@generationsoftware/hyperstructure-react-hooks",
         });
@@ -17128,7 +17128,7 @@ PERFORMANCE OF THIS SOFTWARE.
           t.append("h-captcha-response", e);
           let r = await tn({
             method: "post",
-            url: "https://discord-invite.pooltogether-api.workers.dev/generateInvite",
+            url: "https://discord-invite.DropTogether-api.workers.dev/generateInvite",
             data: t,
             headers: { "Content-Type": "multipart/form-data" },
           });

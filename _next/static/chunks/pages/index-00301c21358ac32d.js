@@ -166,22 +166,6 @@
                   },
                 ],
               },
-              {
-                title: N("languages"),
-                content: [
-                  { content: "English", onClick: () => A("en") },
-                  { content: "Espa\xf1ol", onClick: () => A("es") },
-                  { content: "Deutsch", onClick: () => A("de") },
-                  { content: "Fran\xe7ais", onClick: () => A("fr") },
-                  { content: "हिन्दी", onClick: () => A("hi") },
-                  { content: "한국어", onClick: () => A("ko") },
-                  { content: "Portugu\xeas", onClick: () => A("pt") },
-                  { content: "T\xfcrk\xe7e", onClick: () => A("tr") },
-                  { content: "中文", onClick: () => A("zh") },
-                  { content: "Русский", onClick: () => A("ru") },
-                  { content: "Filipino", onClick: () => A("fil") },
-                ],
-              },
             ],
             D = {
               "/help": f("help"),
@@ -198,7 +182,7 @@
             children: [
               (0, l.jsx)(p(), {
                 children: (0, l.jsx)("title", {
-                  children: "PoolTogether".concat(_ ? " | ".concat(_) : ""),
+                  children: "DropTogether".concat(_ ? " | ".concat(_) : ""),
                 }),
               }),
               !s &&
@@ -677,7 +661,7 @@
                 ],
               }),
               (0, l.jsx)(i.zx, {
-                href: "https://medium.com/pooltogether/the-power-of-no-loss-prize-savings-1f006503f64",
+                href: "https://medium.com/DropTogether/the-power-of-no-loss-prize-savings-1f006503f64",
                 children: (0, l.jsx)("span", {
                   className:
                     "text-base px-[.4em] py-[.2em] md:text-sm lg:text-base",

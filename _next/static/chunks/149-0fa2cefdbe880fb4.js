@@ -158,22 +158,6 @@
                   },
                 ],
               },
-              {
-                title: b("languages"),
-                content: [
-                  { content: "English", onClick: () => S("en") },
-                  { content: "Espa\xf1ol", onClick: () => S("es") },
-                  { content: "Deutsch", onClick: () => S("de") },
-                  { content: "Fran\xe7ais", onClick: () => S("fr") },
-                  { content: "हिन्दी", onClick: () => S("hi") },
-                  { content: "한국어", onClick: () => S("ko") },
-                  { content: "Portugu\xeas", onClick: () => S("pt") },
-                  { content: "T\xfcrk\xe7e", onClick: () => S("tr") },
-                  { content: "中文", onClick: () => S("zh") },
-                  { content: "Русский", onClick: () => S("ru") },
-                  { content: "Filipino", onClick: () => S("fil") },
-                ],
-              },
             ],
             F = {
               "/help": f("help"),
@@ -190,7 +174,7 @@
             children: [
               (0, a.jsx)(d(), {
                 children: (0, a.jsx)("title", {
-                  children: "PoolTogether".concat(Z ? " | ".concat(Z) : ""),
+                  children: "DropTogether".concat(Z ? " | ".concat(Z) : ""),
                 }),
               }),
               !s &&

@@ -166,22 +166,6 @@
                   },
                 ],
               },
-              {
-                title: v("languages"),
-                content: [
-                  { content: "English", onClick: () => T("en") },
-                  { content: "Espa\xf1ol", onClick: () => T("es") },
-                  { content: "Deutsch", onClick: () => T("de") },
-                  { content: "Fran\xe7ais", onClick: () => T("fr") },
-                  { content: "हिन्दी", onClick: () => T("hi") },
-                  { content: "한국어", onClick: () => T("ko") },
-                  { content: "Portugu\xeas", onClick: () => T("pt") },
-                  { content: "T\xfcrk\xe7e", onClick: () => T("tr") },
-                  { content: "中文", onClick: () => T("zh") },
-                  { content: "Русский", onClick: () => T("ru") },
-                  { content: "Filipino", onClick: () => T("fil") },
-                ],
-              },
             ],
             S = {
               "/help": u("help"),
@@ -198,7 +182,7 @@
             children: [
               (0, a.jsx)(x(), {
                 children: (0, a.jsx)("title", {
-                  children: "PoolTogether".concat(P ? " | ".concat(P) : ""),
+                  children: "DropTogether".concat(P ? " | ".concat(P) : ""),
                 }),
               }),
               !s &&
@@ -306,7 +290,7 @@
               },
               ptApp_v4: {
                 href: c.BA.app_v4,
-                iconSrc: "/pooltogether-token-logo.svg",
+                iconSrc: "/DropTogether-token-logo.svg",
                 title: r("ptApp_v4CardTitle"),
               },
               poolExplorer: {
@@ -389,10 +373,10 @@
             (0, a.jsx)(d(), {
               href: "/",
               children: (0, a.jsx)(p(), {
-                src: "/pooltogether-logo.svg",
+                src: "/DropTogether-logo.svg",
                 width: 716,
                 height: 284,
-                alt: "PoolTogether",
+                alt: "DropTogether",
                 className: "h-14 w-auto",
               }),
             }),

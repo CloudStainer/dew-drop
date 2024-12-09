@@ -92,7 +92,7 @@
                       children: s.rich("prizeLinkedSavings", {
                         link: (e) =>
                           (0, i.jsx)("a", {
-                            href: "https://medium.com/pooltogether/the-power-of-no-loss-prize-savings-1f006503f64",
+                            href: "https://medium.com/DropTogether/the-power-of-no-loss-prize-savings-1f006503f64",
                             target: "_blank",
                             className: "text-pt-teal",
                             children: e,

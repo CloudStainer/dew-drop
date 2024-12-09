@@ -39,7 +39,7 @@
                 href: i.BA.clientJs_v4,
                 iconSrc: "/icons/devToolIcon.svg",
                 title: o("clientJs_v4CardTitle"),
-                author: "PoolTogether Inc.",
+                author: "DropTogether Inc.",
                 tags: ["dev", "v4"],
                 description: o("clientJs_v4CardDescription"),
               },
@@ -63,7 +63,7 @@
                 href: i.BA.prizeTierController,
                 iconSrc: "/icons/devToolIcon.svg",
                 title: o("prizeTierControllerCardTitle"),
-                author: "PoolTogether Inc.",
+                author: "DropTogether Inc.",
                 tags: ["dev", "v4"],
                 description: o("prizeTierControllerCardDescription"),
               },
@@ -71,26 +71,26 @@
                 href: i.BA.brandKit,
                 iconSrc: "/icons/devToolIcon.svg",
                 title: o("brandKitCardTitle"),
-                author: "PoolTogether Inc.",
+                author: "DropTogether Inc.",
                 tags: ["design"],
                 description: o("brandKitCardDescription"),
               },
-              pooltogetherUiKit: {
-                href: i.BA.pooltogetherUiKit,
+              DropTogetherUiKit: {
+                href: i.BA.DropTogetherUiKit,
                 iconSrc: "/icons/devToolIcon.svg",
-                title: o("pooltogetherUiKitCardTitle"),
+                title: o("DropTogetherUiKitCardTitle"),
                 author: "G9 Software Inc.",
                 tags: ["design"],
-                description: o("pooltogetherUiKitCardDescription"),
+                description: o("DropTogetherUiKitCardDescription"),
               },
-              pooltogetherTokenBrandingGuidelines: {
-                href: i.BA.pooltogetherTokenBrandingGuidelines,
+              DropTogetherTokenBrandingGuidelines: {
+                href: i.BA.DropTogetherTokenBrandingGuidelines,
                 iconSrc: "/icons/devToolIcon.svg",
-                title: o("pooltogetherTokenBrandingGuidelinesCardTitle"),
+                title: o("DropTogetherTokenBrandingGuidelinesCardTitle"),
                 author: "G9 Software Inc.",
                 tags: ["design"],
                 description: o(
-                  "pooltogetherTokenBrandingGuidelinesCardDescription"
+                  "DropTogetherTokenBrandingGuidelinesCardDescription"
                 ),
               },
               cabanaFactory: {
@@ -102,7 +102,7 @@
                 description: o("cabanaFactoryCardDescription"),
               },
               nextjsTemplate: {
-                href: "https://github.com/GenerationSoftware/pooltogether-nextjs-template",
+                href: "https://github.com/GenerationSoftware/DropTogether-nextjs-template",
                 iconSrc: "/icons/nextjsIcon.svg",
                 title: o("nextjsTemplateCardTitle"),
                 author: "G9 Software Inc.",
@@ -110,7 +110,7 @@
                 description: o("nextjsTemplateCardDescription"),
               },
               sveltekitTemplate: {
-                href: "https://github.com/GenerationSoftware/pooltogether-sveltekit-template",
+                href: "https://github.com/GenerationSoftware/DropTogether-sveltekit-template",
                 iconSrc: "/icons/svelteIcon.svg",
                 title: o("sveltekitTemplateCardTitle"),
                 author: "G9 Software Inc.",
@@ -253,8 +253,8 @@
                 title: s("designerToolsSectionTitle"),
                 cards: [
                   "brandKit",
-                  "pooltogetherUiKit",
-                  "pooltogetherTokenBrandingGuidelines",
+                  "DropTogetherUiKit",
+                  "DropTogetherTokenBrandingGuidelines",
                 ],
               }),
             ],
