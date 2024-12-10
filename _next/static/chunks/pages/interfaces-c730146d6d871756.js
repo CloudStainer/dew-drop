@@ -109,22 +109,6 @@
                 title: v("community"),
                 content: [
                   {
-                    content: "Lens",
-                    href: o.BA.lens,
-                    icon: (0, a.jsx)(o.QZ, {
-                      platform: "lens",
-                      className: "w-6 h-auto shrink-0",
-                    }),
-                  },
-                  {
-                    content: "Farcaster",
-                    href: o.BA.farcaster,
-                    icon: (0, a.jsx)(o.QZ, {
-                      platform: "farcaster",
-                      className: "w-6 h-auto shrink-0",
-                    }),
-                  },
-                  {
                     content: "Twitter",
                     href: o.BA.twitter,
                     icon: (0, a.jsx)(o.QZ, {

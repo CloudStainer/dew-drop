@@ -208,34 +208,10 @@
                 title: b("community"),
                 content: [
                   {
-                    content: "Lens",
-                    href: l.BA.lens,
-                    icon: (0, a.jsx)(l.QZ, {
-                      platform: "lens",
-                      className: "w-6 h-auto shrink-0",
-                    }),
-                  },
-                  {
-                    content: "Farcaster",
-                    href: l.BA.farcaster,
-                    icon: (0, a.jsx)(l.QZ, {
-                      platform: "farcaster",
-                      className: "w-6 h-auto shrink-0",
-                    }),
-                  },
-                  {
                     content: "Twitter",
                     href: l.BA.twitter,
                     icon: (0, a.jsx)(l.QZ, {
                       platform: "twitter",
-                      className: "w-6 h-auto shrink-0",
-                    }),
-                  },
-                  {
-                    content: "Discord",
-                    onClick: () => w(!0),
-                    icon: (0, a.jsx)(l.QZ, {
-                      platform: "discord",
                       className: "w-6 h-auto shrink-0",
                     }),
                   },
@@ -252,14 +228,6 @@
                     href: l.BA.medium,
                     icon: (0, a.jsx)(l.QZ, {
                       platform: "medium",
-                      className: "w-6 h-auto shrink-0",
-                    }),
-                  },
-                  {
-                    content: "Mirror",
-                    href: l.BA.mirror,
-                    icon: (0, a.jsx)(l.QZ, {
-                      platform: "mirror",
                       className: "w-6 h-auto shrink-0",
                     }),
                   },

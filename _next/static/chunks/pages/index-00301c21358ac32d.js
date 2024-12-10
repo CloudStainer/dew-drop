@@ -109,34 +109,10 @@
                 title: N("community"),
                 content: [
                   {
-                    content: "Lens",
-                    href: r.BA.lens,
-                    icon: (0, l.jsx)(r.QZ, {
-                      platform: "lens",
-                      className: "w-6 h-auto shrink-0",
-                    }),
-                  },
-                  {
-                    content: "Farcaster",
-                    href: r.BA.farcaster,
-                    icon: (0, l.jsx)(r.QZ, {
-                      platform: "farcaster",
-                      className: "w-6 h-auto shrink-0",
-                    }),
-                  },
-                  {
                     content: "Twitter",
                     href: r.BA.twitter,
                     icon: (0, l.jsx)(r.QZ, {
                       platform: "twitter",
-                      className: "w-6 h-auto shrink-0",
-                    }),
-                  },
-                  {
-                    content: "Discord",
-                    onClick: () => w(!0),
-                    icon: (0, l.jsx)(r.QZ, {
-                      platform: "discord",
                       className: "w-6 h-auto shrink-0",
                     }),
                   },
@@ -153,14 +129,6 @@
                     href: r.BA.medium,
                     icon: (0, l.jsx)(r.QZ, {
                       platform: "medium",
-                      className: "w-6 h-auto shrink-0",
-                    }),
-                  },
-                  {
-                    content: "Mirror",
-                    href: r.BA.mirror,
-                    icon: (0, l.jsx)(r.QZ, {
-                      platform: "mirror",
                       className: "w-6 h-auto shrink-0",
                     }),
                   },
@@ -820,11 +788,11 @@
               t
             ),
             children: [
-              (0, l.jsx)(_, { title: s("totalPrizesAwarded"), value: a }),
-              (0, l.jsx)(_, { title: s("savedWithPt"), value: n }),
+              (0, l.jsx)(_, { title: s("totalPrizesAwarded"), value: "$ 0" }),
+              (0, l.jsx)(_, { title: s("savedWithPt"), value: "$ 0" }),
               (0, l.jsx)(_, {
                 title: s("uniqueWallets"),
-                value: "".concat(r, "+"),
+                value: "0",
               }),
               (0, l.jsx)(_, { title: s("lossesEver"), value: "0" }),
             ],
